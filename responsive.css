@@ -1,0 +1,288 @@
+
+@media all and (max-width: 990px) {
+    .menu-icon {
+        display: none;
+    }
+
+    .sidebar {
+        display: none;
+    }
+
+    .container,
+    .large-containr {
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+
+    /* .nav-right img {
+        display: none;
+    } */
+
+    .nav-right .user-icon {
+        display: block;
+        width: 30px;
+    }
+
+    .nav-middle .search-box input {
+        width: 300px;
+    }
+
+    .nav-right img{
+        width: 22px;
+        margin-right: 22px;
+    }
+
+    .nav-middle .mic-icon {
+        display: none;
+    }
+
+
+    .nav-left .logo {
+        width: 110px;
+    }
+
+    .nav-middle .search-box {
+        border: none;
+        display: none;
+    }
+
+    .nav-middle .search-box input {
+        display: none;
+    }
+
+    .active-search {
+        display: block;
+    }
+
+    /*------------ play video area----------- */
+    .play-video {
+        flex-basis: 100%;
+    }
+
+    .right-sidebar {
+        flex-basis: 100%;
+    }
+
+    .play-container {
+        padding-left: 5%;
+    }
+
+    .vid-description {
+        padding-left: 0;
+    }
+
+    .play-video .play-video-info a {
+        margin-left: 0;
+        margin-right: 15px;
+        margin-top: 15px;
+    }
+
+    #preloader {
+        background-size: 200px;
+    }
+
+    .publisher button {
+        background: transparent;
+        font-weight: 600;
+        color: #cc0000;
+    }
+
+
+
+}
+
+@media all and (max-width: 562px) {
+    .nav-middle .search-box input {
+        width: 200px;
+    }
+
+    .nav-left .logo {
+        width: 90px;
+    }
+
+    .nav-middle .search-box {
+        padding: 3px 10px;
+    }
+
+    .nav-right .user-icon {
+        display: block;
+        width: 25px;
+    }
+
+    .container,
+    .large-containr {
+        padding-left: 3.5%;
+        padding-right: 3.5%;
+    }
+
+    .hidden {
+        display: none;
+    }
+
+    .hidden-search {
+        width: 18px !important;
+    }
+
+    .hidden-bottom {
+        display: block;
+    }
+
+    .header.hide {
+        transform: translateY(-100%);
+    }
+
+    .banner {
+        display: none;
+    }
+
+    .bottom-bar {
+        padding: 3px 0;
+    }
+
+    /*----------- play video area---------- */
+
+    .list-container:last-child {
+        margin-bottom: 30px;
+    }
+
+    .play-video h3 {
+        font-size: 19px;
+    }
+
+    .publisher div p {
+        font-size: 16px;
+    }
+
+    .publisher div span {
+        font-size: 12px;
+    }
+
+    .publisher button {
+        padding: 8px 18px;
+    }
+
+    .vid-description p {
+        font-size: 12.5px;
+        margin-bottom: 3.5px;
+    }
+
+    .old-comment div h3 {
+        font-size: 15px !important;
+    }
+
+    .old-comment .comment-action img {
+        width: 16px;
+    }
+
+    .old-comment .comment-action span {
+        font-size: 12px;
+    }
+
+    .play-video .play-video-info p {
+        font-size: 13px;
+    }
+
+    .play-video .play-video-info a img {
+        width: 16px;
+        margin-right: 4px;
+    }
+
+    #preloader {
+        background-size: 120px;
+    }
+
+    .play-video .play-video-info {
+        margin-top: 5px;
+    }
+
+    .play-video .play-video-info a {
+        margin-left: 0;
+        margin-right: 10px;
+        margin-top: 10px;
+    }
+
+    
+}
+
+@media all and (max-width: 462px) {
+    .nav-middle .search-box input {
+        width: 130px;
+    }
+
+    .nav-middle .search-box {
+        padding: 2px 10px;
+    }
+
+    .nav-left .logo {
+        width: 80px;
+    }
+
+    .nav-right .user-icon {
+        display: block;
+        width: 22px;
+    }
+
+    .container,
+    .large-containr {
+        padding-left: 2%;
+        padding-right: 2%;
+    }
+
+    .nav-right img{
+        width: 20px;
+        margin-right: 17px;
+    }
+
+    .hidden-search {
+        width: 15px !important;
+    }
+
+    .single-bottom {
+        width: 38px;
+        margin: 0px 17px;
+    }
+
+    .single-bottom img {
+        width: 20px;
+    }
+
+    .single-bottom p {
+        font-size: 11px;
+    }
+
+    p.plus {
+        font-size: 20px;
+        border: 1.5px solid #000;
+        border-radius: 50%;
+        padding: 0px 6.5px;
+        text-align: center;
+    }
+
+    .bottom-bar {
+        padding: 2px 0;
+    }
+
+    /*------- play video area------- */
+
+    .play-video h3 {
+        font-size: 18.3px;
+    }
+
+    .publisher button {
+        padding: 7px 16px;
+    }
+
+    #preloader {
+        background-size: 100px;
+    }
+}
+
+@media all and (max-width: 370px) {
+    .single-bottom {
+        margin: 0px 14px;
+    }
+
+    #preloader {
+        background-size: 90px;
+    }
+}

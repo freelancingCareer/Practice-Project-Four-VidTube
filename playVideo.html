@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Project 4 Vidtube Play Video</title>
+        <link rel="shortcut icon" href="images/youtube.png" type="image/x-icon">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="responsive.css">
+    </head>
+    <body onload="myload()">
+        
+        <div id="preloader"></div>
+        <!-- nav area Start -->
+        <nav class="flex-div header">
+            <div class="nav-left flex-div">
+                <img src="images/menu.png" alt="menuIcon" class="menu-icon">
+                <img src="images/logo.png" alt="LogoIcon" class="logo">
+            </div>
+            <div class="nav-middle flex-div">
+                <div class="search-box flex-div">
+                    <input type="text" placeholder="Search">
+                    <img src="images/search.png" alt="search" >
+                </div>
+                <img src="images/voice-search.png" alt="voice" class="mic-icon">
+            </div>
+            <div class="nav-right flex-div">
+                <img src="images/upload.png" alt="uploadICon">
+                <img src="images/more.png" alt="moreIcon" class="hidden">
+                <img src="images/notification.png" alt="notifyIcon">
+                <img src="images/search.png" alt="search" class="hidden-search active-search" >
+                <img src="images/Jack.png" alt="jack" class="user-icon">
+            </div>
+        </nav>
+        <!-- nav area End -->
+
+        <div class="container play-container large-container-video">
+            <div class="row">
+                <div class="play-video">
+                    <video controls autoplay>
+                        <source src="images/video.mp4" type="video/mp4">
+                    </video>
+                    <div class="tags">
+                        <a href="">#TopSong</a> <a href="">#Trending</a> <a href="">#2021</a> <a href="">#Asmani</a>
+                    </div>
+                    <h3>I am Coming Home | Jenifar Lopez | Alen Waker .</h3>
+                    <div class="play-video-info">
+                        <p>22M Views &bull; 9 days ago </p>
+                        <div >
+                            <a href=""><img src="images/like.png">19K</a>
+                            <a href=""><img src="images/dislike.png">2K</a>
+                            <a href=""><img src="images/share.png">Share</a>
+                            <a href=""><img src="images/save.png">Save</a>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="publisher">
+                        <img src="images/megan.png">
+                        <div>
+                            <p>Alen Waker</p>
+                            <span>49M Subscribers</span>
+                        </div>
+                        <button type="button">SUBSCRIBE</button>
+                    </div>
+                    <div class="vid-description">
+                        <p>Channel that makes you Happy and smilling.</p>
+                        <p>Subscribe Our youtube Channel to watch more music video.</p>
+                        <hr>
+                        <h4>12K Comments</h4>
+                        <div class="add-comments">
+                            <img src="images/Jack.png">
+                            <input type="text" placeholder="Write Comments...">
+                        </div>
+                        <div class="old-comment">
+                            <img src="images/cameron.png">
+                            <div>
+                                <h3>Cmaeron<span>2 days ago</span></h3>
+                                <p>Lpsum dolor sit amet consectetur adipisicing elit. Dolores, excepturi? Ut necessitatibus saepe fuga aspernatur, non iusto ex esse officiis molestiae voluptate placeat, a vel, suscipit labore facere cum? Ullam.</p>
+                                <div class="comment-action">
+                                    <img src="images/like.png">
+                                    <span>1K</span>
+                                    <img src="images/dislike.png">
+                                    <span>12</span>
+                                    <span>REPLY</span>
+                                    <!-- <a href="">All Replies</a> -->
+                                </div>
+                            </div>
+                        </div>
+                        <div class="old-comment">
+                            <img src="images/gerard.png">
+                            <div>
+                                <h3>Simon Archar <span>2 days ago</span></h3>
+                                <p>A global computer metwork providing a variety of information and communication facilities, cosisting of interconnected networks using standardized communication protocoles.</p>
+                                <div class="comment-action">
+                                    <img src="images/like.png">
+                                    <span>597</span>
+                                    <img src="images/dislike.png">
+                                    <span>6</span>
+                                    <span>REPLY</span>
+                                    <!-- <a href="">All Replies</a> -->
+                                </div>
+                            </div>
+                        </div>
+                        <div class="old-comment">
+                            <img src="images/megan.png">
+                            <div>
+                                <h3>Megan Meher<span>2 days ago</span></h3>
+                                <p>A global computer metwork providing a variety of information and communication facilities, cosisting of interconnected networks using standardized communication protocoles.</p>
+                                <div class="comment-action">
+                                    <img src="images/like.png">
+                                    <span>213</span>
+                                    <img src="images/dislike.png">
+                                    <span>22</span>
+                                    <span>REPLY</span>
+                                    <a href="">All Replies</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="right-sidebar">
+                    <div class="side-video-list">
+                        <a href="https://www.youtube.com/watch?v=38750lf-u5w&ab_channel=WaveMusic" class="small-thumbnail"><img src="images/thumbnail1.png" alt="img1"></a>
+                        <div class="vid-info">
+                            <a href="https://www.youtube.com/watch?v=38750lf-u5w&ab_channel=WaveMusic">Dreams | Lorem ipsum dolor sit, ipisicing elit. Quas, molestias.</a>
+                            <p>Imagin Dragons</p>
+                            <p>112M Views &bull; 111 days ago</p>
+                        </div>
+                    </div>
+                    <div class="side-video-list">
+                        <a href="https://www.youtube.com/watch?v=P6qFCqOy3HU&ab_channel=KurtHugoSchneider" class="small-thumbnail"><img src="images/thumbnail2.png" alt="img1"></a>
+                        <div class="vid-info">
+                            <a href="https://www.youtube.com/watch?v=P6qFCqOy3HU&ab_channel=KurtHugoSchneider">Faded | Lorem ipset, consectetur adipisicing elit. Consequuntur numquam eligendi praesentium.</a>
+                            <p>ALen Waker</p>
+                            <p>19M Views &bull; 21 days ago</p>
+                        </div>
+                    </div>
+                    <div class="side-video-list">
+                        <a href="https://www.youtube.com/watch?v=AEHGw7qc9Lk&ab_channel=WaveMusic" class="small-thumbnail"><img src="images/thumbnail3.png" alt="img1"></a>
+                        <div class="vid-info">
+                            <a href="https://www.youtube.com/watch?v=AEHGw7qc9Lk&ab_channel=WaveMusic">Life is Beautiful | Lorem ipsut amet consectetur, adipisicing elit. Minus.</a>
+                            <p>Beautify</p>
+                            <p>119K Views &bull; 4 days ago</p>
+                        </div>
+                    </div>
+                    <div class="side-video-list">
+                        <a href="https://www.youtube.com/watch?v=BVFlOeXV-iI&ab_channel=FutureMusic" class="small-thumbnail"><img src="images/thumbnail4.png" alt="img1"></a>
+                        <div class="vid-info">
+                            <a href="https://www.youtube.com/watch?v=BVFlOeXV-iI&ab_channel=FutureMusic">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis!</a>
+                            <p>Senorita</p>
+                            <p>91K Views &bull; 7 days ago</p>
+                        </div>
+                    </div>
+                    <div class="side-video-list">
+                        <a href="https://www.youtube.com/watch?v=b5BNUa_op2o&ab_channel=UniversalMelody" class="small-thumbnail"><img src="images/thumbnail5.png" alt="img1"></a>
+                        <div class="vid-info">
+                            <a href="https://www.youtube.com/watch?v=b5BNUa_op2o&ab_channel=UniversalMelody">Consectetur adipisicing elit. Eolorem quos atque voluptatibus enim illum.</a>
+                            <p>Cat Music</p>
+                            <p>199K Views &bull; 8 days ago</p>
+                        </div>
+                    </div>
+                    <div class="side-video-list">
+                        <a href="https://www.youtube.com/watch?v=5HW0Im1XHvE&ab_channel=HIGHWAY" class="small-thumbnail"><img src="images/thumbnail6.png" alt="img1"></a>
+                        <div class="vid-info">
+                            <a href="https://www.youtube.com/watch?v=5HW0Im1XHvE&ab_channel=HIGHWAY">In the End | Lorem iet consectetur adipisicing elit. Cum?</a>
+                            <p>Linkin Park</p>
+                            <p>1.2B Views &bull; 410 days ago</p>
+                        </div>
+                    </div>
+                    <div class="side-video-list">
+                        <a href="https://www.youtube.com/watch?v=ZCSX3mM6940&ab_channel=MusicLyrics-ImagineDragons" class="small-thumbnail"><img src="images/thumbnail7.png" alt="img1"></a>
+                        <div class="vid-info">
+                            <a href="https://www.youtube.com/watch?v=ZCSX3mM6940&ab_channel=MusicLyrics-ImagineDragons">Jab Tak | Lorem ipsum sectetur adipisicing elit. Repellat excepturi odio doloremque enim.</a>
+                            <p>T-series</p>
+                            <p>289K Views &bull; 16 days ago</p>
+                        </div>
+                    </div>
+                    <div class="side-video-list">
+                        <a href="https://www.youtube.com/watch?v=PSSbbDPXy9s&list=RDMM&start_radio=1&rv=VGP6JP_hAPM&ab_channel=MyFavoriteLyrics" class="small-thumbnail"><img src="images/thumbnail8.png" alt="img1"></a>
+                        <div class="vid-info">
+                            <a href="https://www.youtube.com/watch?v=PSSbbDPXy9s&list=RDMM&start_radio=1&rv=VGP6JP_hAPM&ab_channel=MyFavoriteLyrics">dipisicing elit. Ha earum delectus perspiciatis atque similique.</a>
+                            <p>Doremon</p>
+                            <p>99K Views &bull; 9 days ago</p>
+                        </div>
+                    </div>
+                    <div class="side-video-list">
+                        <a href="https://www.youtube.com/watch?v=rtOvBOTyX00&list=RDMM&index=11&ab_channel=ChristinaPerri" class="small-thumbnail"><img src="images/thumbnail2.png" alt="img1"></a>
+                        <div class="vid-info">
+                            <a href="https://www.youtube.com/watch?v=rtOvBOTyX00&list=RDMM&index=11&ab_channel=ChristinaPerri">Purnota | Lorem ipsum dolor sit  adipisicing elit. Sunt, veniam?</a>
+                            <p>Warfeze</p>
+                            <p>229K Views &bull; 122 days ago</p>
+                        </div>
+                    </div>
+                    <div class="side-video-list">
+                        <a href="https://www.youtube.com/watch?v=ZHKQgmpabD8&list=RDMM&index=18&ab_channel=VYRLOriginals" class="small-thumbnail"><img src="images/thumbnail3.png" alt="img1"></a>
+                        <div class="vid-info">
+                            <a href="https://www.youtube.com/watch?v=ZHKQgmpabD8&list=RDMM&index=18&ab_channel=VYRLOriginals">Behula | Lorem, ipsum dolor sit amet consectetur adipisicing.</a>
+                            <p>Sunno</p>
+                            <p>2M Views &bull; 225 days ago</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        
+        <!-- Sidebar area Start -->
+        
+        <div class="sidebar sidebar-video">
+            <div class="shortcut-links">
+                <a href=""><img src="images/home.png" alt="home"><p>Home</p></a>
+                <a href=""><img src="images/explore.png" alt="explore"><p>Explore</p></a>
+                <a href=""><img src="images/subscriprion.png" alt="subscriprion"><p>Subscription</p></a>
+                <hr>
+                <a href=""><img src="images/library.png" alt="library"><p>Library</p></a>
+                <a href=""><img src="images/history.png" alt="history"><p>History</p></a>
+                <a href=""><img src="images/playlist.png" alt="playlist"><p>Playlist</p></a>
+                <a href=""><img src="images/messages.png" alt="message"><p>Messages</p></a>
+                <a href=""><img src="images/show-more.png" alt="showmore"><p>Show More</p></a>
+                <hr>
+            </div>
+            <div class="subscribed-list">
+                <h3>SUBSCRIBED</h3>
+                <a href=""><img src="images/Jack.png" alt="jack"><p>Mack</p></a>
+                <a href=""><img src="images/simon.png" alt="name"><p>Simon</p></a>
+                <a href=""><img src="images/tom.png" alt="name"><p>Tom Harry</p></a>
+                <a href=""><img src="images/megan.png" alt="name"><p>Megan Rien</p></a>
+                <a href=""><img src="images/cameron.png" alt="name"><p>Cameron Vewl</p></a>
+                <a href=""><img src="images/tom.png" alt="name"><p>Mike Lawel</p></a>
+                <a href=""><img src="images/simon.png" alt="name"><p>Nawshin</p></a>
+                <a href=""><img src="images/cameron.png" alt="name"><p>Dimler</p></a>
+                <a href=""><img src="images/simon.png" alt="name"><p>Alex Carry</p></a>
+                <span>&copy; All Rights Reserved.</span>
+            </div>
+        </div>
+        <!-- Sidebar area End -->
+
+       
+
+        <!-- Bottom area for mobile version Start  -->
+        <div class="bottom-area hidden-bottom">
+            <div class="bottom-wrap">
+                <div class="bottom-bar">
+                    <a href="#">
+                        <div class="single-bottom">
+                            <img src="images/home.png" alt="home">
+                            <p>home</p>
+                        </div>
+                    </a>
+                    <a href="#">
+                        <div class="single-bottom">
+                            <img src="images/explore.png" alt="shorts">
+                            <p>shorts</p>
+                        </div>
+                    </a>
+                    <a href="#">
+                        <div class="single-bottom">
+                            <p class="plus">&plus;</p>
+                        </div>
+                    </a>
+                    <a href="#">
+                        <div class="single-bottom">
+                            <img src="images/subscriprion.png" alt="subscriptions">
+                            <p>subscriptions</p>
+                        </div>
+                    </a>
+                    <a href="#">
+                        <div class="single-bottom">
+                            <img src="images/library.png" alt="library">
+                            <p>library</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <!-- Bottom area for mobile version End -->
+        
+        
+
+
+        <!-- javascript area -->
+        <script src="index.js"></script>
+    </body>
+</html>

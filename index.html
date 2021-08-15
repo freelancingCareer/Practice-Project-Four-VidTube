@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Project 4 Vidtube</title>
+        <link rel="shortcut icon" href="images/youtube.png" type="image/x-icon">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="responsive.css">
+    </head>
+    <body onload="myload()">
+        
+        <div id="preloader"></div>
+        <!-- nav area Start -->
+        <nav class="flex-div header">
+            <div class="nav-left flex-div">
+                <img src="images/menu.png" alt="menuIcon" class="menu-icon">
+                <img src="images/logo.png" alt="LogoIcon" class="logo">
+            </div>
+            <div class="nav-middle flex-div">
+                <div class="search-box flex-div">
+                    <input type="text" placeholder="Search">
+                    <img src="images/search.png" alt="search" >
+                </div>
+                <img src="images/voice-search.png" alt="voice" class="mic-icon">
+            </div>
+            <div class="nav-right flex-div">
+                <img src="images/upload.png" alt="uploadICon">
+                <img src="images/more.png" alt="moreIcon" class="hidden">
+                <img src="images/notification.png" alt="notifyIcon">
+                <img src="images/search.png" alt="search" class="hidden-search active-search" >
+                <img src="images/Jack.png" alt="jack" class="user-icon">
+            </div>
+        </nav>
+        <!-- nav area End -->
+
+        <!-- Sidebar area Start -->
+        <div class="sidebar">
+            <div class="shortcut-links">
+                <a href=""><img src="images/home.png" alt="home"><p>Home</p></a>
+                <a href=""><img src="images/explore.png" alt="explore"><p>Explore</p></a>
+                <a href=""><img src="images/subscriprion.png" alt="subscriprion"><p>Subscription</p></a>
+                <hr>
+                <a href=""><img src="images/library.png" alt="library"><p>Library</p></a>
+                <a href=""><img src="images/history.png" alt="history"><p>History</p></a>
+                <a href=""><img src="images/playlist.png" alt="playlist"><p>Playlist</p></a>
+                <a href=""><img src="images/messages.png" alt="message"><p>Messages</p></a>
+                <a href=""><img src="images/show-more.png" alt="showmore"><p>Show More</p></a>
+                <hr>
+            </div>
+            <div class="subscribed-list">
+                <h3>SUBSCRIBED</h3>
+                <a href=""><img src="images/Jack.png" alt="jack"><p>Mack</p></a>
+                <a href=""><img src="images/simon.png" alt="name"><p>Simon</p></a>
+                <a href=""><img src="images/tom.png" alt="name"><p>Tom Harry</p></a>
+                <a href=""><img src="images/megan.png" alt="name"><p>Megan Rien</p></a>
+                <a href=""><img src="images/cameron.png" alt="name"><p>Cameron Vewl</p></a>
+                <a href=""><img src="images/tom.png" alt="name"><p>Mike Lawel</p></a>
+                <a href=""><img src="images/simon.png" alt="name"><p>Nawshin</p></a>
+                <a href=""><img src="images/cameron.png" alt="name"><p>Dimler</p></a>
+                <a href=""><img src="images/simon.png" alt="name"><p>Alex Carry</p></a>
+                <span>&copy; All Rights Reserved.</span>
+            </div>
+        </div>
+        <!-- Sidebar area End -->
+
+        <!-- Main content Start -->
+        <div class="container">
+            <div class="container-wrap">
+                <div class="banner">
+                    <img src="images/banner.png" alt="banner">
+                </div>
+                <div class="list-container">
+                    <div class="vid-list">
+                        <a href="playVideo.html"><img src="images/thumbnail5.png" alt="t1" class="thumbnail"></a>
+                        <div class="flex-div">
+                            <img src="images/Jack.png" alt="jack person">
+                            <div class="vid-info">
+                                <a href="playVideo.html">Friends for Ever.</a>
+                                <p>Dream</p>
+                                <p>22k Views &bull; 1 minuite ago</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="vid-list">
+                        <a href="https://www.youtube.com/watch?v=38750lf-u5w&ab_channel=WaveMusic"><img src="images/thumbnail4.png" alt="t1" class="thumbnail"></a>
+                        <div class="flex-div">
+                            <img src="images/cameron.png" alt="jack person">
+                            <div class="vid-info">
+                                <a href="https://www.youtube.com/watch?v=38750lf-u5w&ab_channel=WaveMusic">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</a>
+                                <p>Vally</p>
+                                <p>222k Views &bull; 1 days ago</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="vid-list">
+                        <a href="https://www.youtube.com/watch?v=P6qFCqOy3HU&ab_channel=KurtHugoSchneider"><img src="images/thumbnail6.png" alt="t1" class="thumbnail"></a>
+                        <div class="flex-div">
+                            <img src="images/simon.png" alt="jack person">
+                            <div class="vid-info">
+                                <a href="https://www.youtube.com/watch?v=P6qFCqOy3HU&ab_channel=KurtHugoSchneider">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Numquam minus ullam eos amet necessitatibus.</a>
+                                <p>Anisul Islam</p>
+                                <p>2k Views &bull; 11 days ago</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="vid-list">
+                        <a href="https://www.youtube.com/watch?v=AEHGw7qc9Lk&ab_channel=WaveMusic"><img src="images/thumbnail8.png" alt="t1" class="thumbnail"></a>
+                        <div class="flex-div">
+                            <img src="images/Jack.png" alt="jack person">
+                            <div class="vid-info">
+                                <a href="https://www.youtube.com/watch?v=AEHGw7qc9Lk&ab_channel=WaveMusic">Best channel for learning Web Development that will help for a Developer.</a>
+                                <p>Khalid Farhan</p>
+                                <p>18k Views &bull; 12 days ago</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="vid-list">
+                        <a href="https://www.youtube.com/watch?v=BVFlOeXV-iI&ab_channel=FutureMusic"><img src="images/thumbnail1.png" alt="t1" class="thumbnail"></a>
+                        <div class="flex-div">
+                            <img src="images/megan.png" alt="jack person">
+                            <div class="vid-info">
+                                <a href="https://www.youtube.com/watch?v=BVFlOeXV-iI&ab_channel=FutureMusic">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facilis maxime ab voluptas!</a>
+                                <p>Dream</p>
+                                <p>210k Views &bull; 14 days ago</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="vid-list">
+                        <a href="https://www.youtube.com/watch?v=b5BNUa_op2o&ab_channel=UniversalMelody"><img src="images/thumbnail3.png" alt="t1" class="thumbnail"></a>
+                        <div class="flex-div">
+                            <img src="images/tom.png" alt="jack person">
+                            <div class="vid-info">
+                                <a href="https://www.youtube.com/watch?v=b5BNUa_op2o&ab_channel=UniversalMelody">Best channel for learning Web Development that will help for a Developer.</a>
+                                <p>Easy Tutorials</p>
+                                <p>221k Views &bull; 16 days ago</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="vid-list">
+                        <a href="https://www.youtube.com/watch?v=5HW0Im1XHvE&ab_channel=HIGHWAY"><img src="images/thumbnail2.png" alt="t1" class="thumbnail"></a>
+                        <div class="flex-div">
+                            <img src="images/cameron.png" alt="jack person">
+                            <div class="vid-info">
+                                <a href="https://www.youtube.com/watch?v=5HW0Im1XHvE&ab_channel=HIGHWAY">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Labore, alias!</a>
+                                <p>Abegi Mon</p>
+                                <p>199k Views &bull; 22 days ago</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="vid-list">
+                        <a href="https://www.youtube.com/watch?v=ZCSX3mM6940&ab_channel=MusicLyrics-ImagineDragons"><img src="images/thumbnail7.png" alt="t1" class="thumbnail"></a>
+                        <div class="flex-div">
+                            <img src="images/Jack.png" alt="jack person">
+                            <div class="vid-info">
+                                <a href="https://www.youtube.com/watch?v=ZCSX3mM6940&ab_channel=MusicLyrics-ImagineDragons">Best channel for learning Web Development that will help for a Developer.</a>
+                                <p>Stack Learners</p>
+                                <p>112k Views &bull; 25 days ago</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="vid-list">
+                        <a href="https://www.youtube.com/watch?v=PSSbbDPXy9s&list=RDMM&start_radio=1&rv=VGP6JP_hAPM&ab_channel=MyFavoriteLyrics"><img src="images/thumbnail2.png" alt="t1" class="thumbnail"></a>
+                        <div class="flex-div">
+                            <img src="images/tom.png" alt="jack person">
+                            <div class="vid-info">
+                                <a href="https://www.youtube.com/watch?v=PSSbbDPXy9s&list=RDMM&start_radio=1&rv=VGP6JP_hAPM&ab_channel=MyFavoriteLyrics">Best channel for learning Web Development that will help for a Developer.</a>
+                                <p>Rabbil Hasan</p>
+                                <p>111k Views &bull; 26 days ago</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="vid-list">
+                        <a href="https://www.youtube.com/watch?v=rtOvBOTyX00&list=RDMM&index=11&ab_channel=ChristinaPerri"><img src="images/thumbnail5.png" alt="t1" class="thumbnail"></a>
+                        <div class="flex-div">
+                            <img src="images/megan.png" alt="jack person">
+                            <div class="vid-info">
+                                <a href="https://www.youtube.com/watch?v=rtOvBOTyX00&list=RDMM&index=11&ab_channel=ChristinaPerri">Best channel for learning Web Development that will help for a Developer.</a>
+                                <p>Freelancer Nasim</p>
+                                <p>12k Views &bull; 28 days ago</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Main content End -->
+
+        <!-- Bottom area for mobile version Start  -->
+        <div class="bottom-area hidden-bottom">
+            <div class="bottom-wrap">
+                <div class="bottom-bar">
+                    <a href="#">
+                        <div class="single-bottom">
+                            <img src="images/home.png" alt="home">
+                            <p>home</p>
+                        </div>
+                    </a>
+                    <a href="#">
+                        <div class="single-bottom">
+                            <img src="images/explore.png" alt="shorts">
+                            <p>shorts</p>
+                        </div>
+                    </a>
+                    <a href="#">
+                        <div class="single-bottom">
+                            <p class="plus">&plus;</p>
+                        </div>
+                    </a>
+                    <a href="#">
+                        <div class="single-bottom">
+                            <img src="images/subscriprion.png" alt="subscriptions">
+                            <p>subscriptions</p>
+                        </div>
+                    </a>
+                    <a href="#">
+                        <div class="single-bottom">
+                            <img src="images/library.png" alt="library">
+                            <p>library</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <!-- Bottom area for mobile version End --> 
+
+        
+
+
+        <!-- javascript area -->
+        <script src="index.js"></script>
+    </body>
+</html>
